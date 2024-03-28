@@ -17,7 +17,7 @@ module.exports = {
         'imageGalleryMilkbottles': "url('./images/mobile/image-gallery-milkbottles.jpg')",
         'imageGalleryOrange': "url('./images/mobile/image-gallery-orange.jpg')",
         'imageGalleryCone': "url('./images/mobile/image-gallery-cone.jpg')",
-        'imageGallerySugarCubes': "url('./images/mobile/image-gallery-sugar-cubes')",
+        'imageGallerySugarCubes': "url('./images/mobile/image-gallery-sugar-cubes.jpg')",
         // background Desktop
         'imageHeaderDesktop': "url('./images/desktop/image-header.jpg')",
         'imageTransformDesktop': "url('./images/desktop/image-transfrom.jpg')",
@@ -27,7 +27,7 @@ module.exports = {
         'imageGalleryMilkbottlesDesktop': "url('./imagse/desktop/image-gallery-milkbottles.jpg')",
         'imageGalleryOrangeDesktop': "url('./images/desktop/image-gallery-orange.jpg')",
         'imageGalleryConeDesktop': "url('./images/desktop/image-gallery-cone.jpg')",
-        'imageGallerySugarCubesDesktop': "url('./images/desktop/image-gallery-sugar-cubes')",
+        'imageGallerySugarCubesDesktop': "url('./images/desktop/image-gallery-sugar-cubes.jpg')",
       },
       colors: {
         /* Primary */
