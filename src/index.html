@@ -36,28 +36,50 @@
 </head>
 
 <body>
-  <header class="w-full h-[30rem] bg-imageHeader bg-cover bg-no-repeat bg-bottom px-5 py-5">
+  <header class="w-full h-[30rem] bg-imageHeader bg-cover bg-no-repeat bg-bottom px-5 py-5
+  lg:bg-imageHeaderDesktop
+  lg:h-[100vh]
+  ">
 
     <section class="w-full h-10 flex justify-between items-center">
       <img class="h-8" src="./images/logo.svg" alt="logo">
 
       <input type="checkbox" id="menu-bar" class="hidden">
-      <label for="menu-bar"class="fa-solid fa-bars text-3xl text-white opacity-1 visible"></label>
+      <label for="menu-bar"class="fa-solid fa-bars text-3xl text-white opacity-1 visible lg:hidden lg:opacity-0"></label>
 
-      <nav class="absolute top-24 right-5 bg-white w-4/5 h-64 font-Barlow origin-top scale-y-0 opacity-0">
-        <ul class="w-full h-full text-Grayish-blue font-semibold text-xl text-center p-6 flex flex-col space-y-5">
+      <nav class="absolute top-24 right-5 bg-white w-4/5 h-64 font-Barlow origin-top scale-y-0 opacity-0 
+      lg:opacity-100 
+      lg:scale-y-100
+      lg:bg-transparent
+      lg:top-4
+      lg:h-9
+      ">
+        <ul class="w-full h-full text-Grayish-blue font-semibold text-xl text-center p-6 flex flex-col space-y-5
+        lg:flex-row
+        lg:space-y-0
+        lg:justify-end
+        lg:space-x-10
+        lg:text-white
+        lg:items-center
+        ">
           <li><a href="#">About</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">Projects</a></li>
-          <li><a class="inline-block w-36 p-3 text-Very-dark-desaturated-blue font-bold  bg-[#fad400] rounded-3xl mt-2 uppercase" href="#Contact">Contact</a></li>
+          <li><a class="inline-block w-36 p-3 text-Very-dark-desaturated-blue font-bold  bg-[#fad400] rounded-3xl mt-2 uppercase
+          lg:mt-0  
+          lg:bg-white
+          " href="#Contact">Contact</a></li>
         </ul>
       </nav>
 
     </section>
 
     <section class="w-full flex flex-col justify-center items-center mt-16">
-      <h1 class="text-[2.5rem] text-center uppercase text-white font-bold font-Fraunces leading-none tracking-wider">We are creatives</h1>
-      <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down" class=" mt-7">
+      <h1 class="text-[2.5rem] text-center uppercase text-white font-bold font-Fraunces leading-none tracking-wider
+      lg:text-[3.5rem]
+      lg:tracking-widest
+      ">We are creatives</h1>
+      <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down" class=" mt-7 lg:mt-[11.75rem]">
     </section>
 
   </header>

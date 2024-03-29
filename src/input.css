@@ -12,4 +12,5 @@ input:checked ~ label::before{
 
 nav::before{
     @apply content-[''] absolute right-0 w-0 h-0 top-[-2rem] border-[2rem] border-t-transparent border-r-white border-l-transparent border-b-white
+    lg:hidden
 }
