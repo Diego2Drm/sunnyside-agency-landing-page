@@ -86,15 +86,25 @@
 
   <main class="w-full ">
 
-    <article>
-      <div class="w-full h-[20rem] bg-imageTransform bg-cover bg-no-repeat bg-center">
+    <article class="lg:w-full lg:flex lg:flex-row-reverse lg:h-[50vh] xl:h-[65vh]">
+      <div class="w-full h-[20rem] bg-imageTransform bg-cover bg-no-repeat bg-center
+      lg:bg-imageTransformDesktop
+      lg:h-full
+      lg:w-[50%]
+      ">
       </div>
 
-      <div class="bg-white w-full flex flex-col items-center p-4 mt-16 mb-16 text-center">
+      <div class="bg-white w-full flex flex-col items-center p-4 mt-16 mb-16 text-center 
+      lg:text-start 
+      lg:mt-0 
+      lg:p-8
+      lg:mb-8 
+      lg:w-[50%] 
+      xl:p-12">
 
-        <h2  class="text-Very-dark-desaturated-blue text-[2.5rem] font-bold font-Fraunces">Transform your brand</h2>
+        <h2  class="text-Very-dark-desaturated-blue text-[2.5rem] font-bold font-Fraunces lg:text-[3rem] xl:text-[3.5rem]">Transform your brand</h2>
 
-        <p class="text-Dark-grayish-blue font-semibold text-lg font-Barlow mt-5 leading-8">    
+        <p class="text-Dark-grayish-blue font-semibold text-lg font-Barlow mt-5 leading-8 lg:mt-2 xl:text-2xl xl:w-[70%] xl:leading-[4rem]">    
           We are a full-service creative agency specializing in helping brands grow fast.
           Engage your clients through compelling visuals that do most of the marketing for you.
         </p>
@@ -109,21 +119,36 @@
         after:bottom-[-.5rem]
         after:left-0
         after:z-0
+        lg:after:w-[120px]
+        lg:w-full
+        xl:w-[70%]
         "> Learn more</a>
       </div>
 
     </article>
 
-    <article>
+    <article class="lg:w-full lg:flex lg:h-[50vh] xl:h-[65vh]">
 
-      <div class="w-full h-[20rem] bg-imageStand bg-cover bg-no-repeat bg-center">
+      <div class="w-[full] h-[20rem] bg-imageStand bg-cover bg-no-repeat bg-center 
+      lg:bg-imageStandDesktop
+      lg:h-full 
+      lg:w-[50%]
+      lg:bg-top
+      xl:bg-center
+      ">
       </div>
 
-      <div class="bg-white w-full flex flex-col items-center p-4 mt-16 mb-16 text-center">
+      <div class="bg-white w-full flex flex-col items-center p-4 mt-16 mb-16 text-center lg:text-start 
+      lg:mt-0 
+      lg:p-8 
+      lg:mb-8 
+      lg:w-[50%]
+      xl:p-12
+      ">
 
-        <h2 class="text-Very-dark-desaturated-blue text-[2.5rem] font-bold font-Fraunces ">Stand out to the right audience</h2>
+        <h2 class="text-Very-dark-desaturated-blue text-[2.5rem] font-bold font-Fraunces lg:text-[2rem] xl:text-[2.5rem]">Stand out to the right audience</h2>
 
-        <p class="text-Dark-grayish-blue font-semibold text-xl font-Barlow mt-5 leading-8">    
+        <p class="text-Dark-grayish-blue font-semibold text-xl font-Barlow mt-5 leading-8 lg:mt-2  xl:text-2xl xl:w-[70%] xl:leading-[4rem]">    
           Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build
           and extend your brand in digital places.
         </p>
@@ -137,31 +162,44 @@
           after:absolute
           after:bottom-[-.5rem]
           after:left-0
-          after:z-0>Learn more"
-          > Learn more </a>
+          after:z-0
+          lg:after:w-[120px]
+          lg:w-full
+          xl:w-[70%]
+          "> Learn more </a>
 
       </div>
 
     </article>
 
-    <article>
+    <article class="lg:w-full lg:flex lg:h-[50vh] xl:h-[70vh]">
       
-      <div class="w-full h-[33rem] bg-imageGraphicDesign bg-cover bg-no-repeat bg-center flex flex-col justify-end items-cente pb-16 text-center text-Dark-desaturated-cyan p-3">
-        <h2 class="text-2xl font-Fraunces font-bold">Graphic Design</h2>
-        <p class="text-sm font-Fraunces font-semibold mt-5 leading-7">
+      <div class="w-full h-[33rem] bg-imageGraphicDesign bg-cover bg-no-repeat bg-center flex flex-col justify-end items-cente pb-16 text-center text-Dark-desaturated-cyan p-3
+      lg:bg-imageGraphicDesignDesktop
+      lg:h-full
+      lg:bg-top
+      lg:pb-[1rem]
+      ">
+        <h2 class="text-2xl font-Fraunces font-bold xl:text-3xl">Graphic Design</h2>
+        <p class="text-sm font-Fraunces font-semibold mt-5 leading-7 
+        lg:m-0 lg:pt-0 lg:px-12 lg:pb-4
+        xl:text-2xl">
           Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential
           clients’ attention.
         </p>
       </div>
-      
-    </article>
 
-    <article>
-
-      <div class="w-full h-[33rem] bg-imagePhotography bg-cover bg-no-repeat bg-center flex flex-col justify-end items-cente pb-16 text-center text-Dark-blue p-3">
-        <h2 class="text-2xl font-Fraunces font-bold" >
+      <div class="w-full h-[33rem] bg-imagePhotography bg-cover bg-no-repeat bg-center flex flex-col justify-end items-cente pb-16 text-center text-Dark-blue p-3
+      lg:bg-imagePhotographyDesktop
+      lg:h-full
+      lg:bg-top
+      lg:pb-[1rem]
+      ">
+        <h2 class="text-2xl font-Fraunces font-bold xl:text-3xl" >
           Photography</h2>
-        <p class="text-sm font-Fraunces font-semibold mt-5 leading-7">
+        <p class="text-sm font-Fraunces font-semibold mt-5 leading-7 
+        lg:m-0 lg:pt-0 lg:px-12 lg:pb-10
+        xl:text-2xl">
           Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
         </p>
       </div>
@@ -169,9 +207,9 @@
     </article>
 
 
-    <section class=" w-full p-3 flex flex-col items-center">
+    <section class=" w-full p-3 flex flex-col items-center lg:flex-row lg:relative lg:justify-evenly lg:items-center lg:h-[80vh]">
 
-      <h3 class="my-10 uppercase text-Grayish-blue font-bold font-Fraunces tracking-[.3rem] text-xl"> Client testimonials</h3>
+      <h3 class="my-10 uppercase text-Grayish-blue font-bold font-Fraunces tracking-[.3rem] text-xl lg:absolute lg:top-0 lg:text-2xl"> Client testimonials</h3>
 
       <article class="w-80 flex flex-col items-center mb-11">
 
@@ -216,17 +254,25 @@
 
     </section>
 
-    <section class="grid grid-rows-2 grid-cols-2 mt-4">
-      <div class="w-full h-48 bg-imageGalleryMilkbottles bg-cover">
+    <section class="grid grid-rows-2 grid-cols-2 mt-4 lg:grid-rows-1 lg:grid-cols-4 lg:h-[40vh] xl:h-[55vh]">
+      <div class="w-full h-48 bg-imageGalleryMilkbottles bg-cover
+      lg:bg-imageGalleryMilkbottlesDesktop lg:h-full 
+      ">
       </div>
 
-      <div class="w-full h-48 bg-imageGalleryOrange bg-left bg-cover">
+      <div class="w-full h-48 bg-imageGalleryOrange bg-left bg-cover
+      lg:bg-imageGalleryOrangeDesktop lg:h-full 
+      ">
       </div>
 
-      <div class="w-full h-48 bg-imageGalleryCone bg-bottom bg-cover">
+      <div class="w-full h-48 bg-imageGalleryCone bg-bottom bg-cover
+      lg:bg-imageGalleryConeDesktop lg:h-full 
+      ">
       </div>
 
-      <div class="w-full h-48 bg-imageGallerySugarCubes bg-bottom bg-cover">
+      <div class="w-full h-48 bg-imageGallerySugarCubes bg-bottom bg-cover
+      lg:bg-imageGallerySugarCubesDesktop lg:h-full 
+      ">
       </div>
     </section>
 

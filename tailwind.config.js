@@ -20,14 +20,14 @@ module.exports = {
         'imageGallerySugarCubes': "url('./images/mobile/image-gallery-sugar-cubes.jpg')",
         // background Desktop
         'imageHeaderDesktop': "url('./images/desktop/image-header.jpg')",
-        'imageTransformDesktop': "url('./images/desktop/image-transfrom.jpg')",
+        'imageTransformDesktop': "url('./images/desktop/image-transform.jpg')",
         'imageStandDesktop': "url(./images/desktop/image-stand-out.jpg)",
-        'imageGraphicDesignDesktop': "url('./imagse/desktop/image-graphic-design.jpg')",
+        'imageGraphicDesignDesktop': "url('./images/desktop/image-graphic-design.jpg')",
         'imagePhotographyDesktop': "url('./images/desktop/image-photography.jpg')",
-        'imageGalleryMilkbottlesDesktop': "url('./imagse/desktop/image-gallery-milkbottles.jpg')",
+        'imageGalleryMilkbottlesDesktop': "url('./images/desktop/image-gallery-milkbottles.jpg')",
         'imageGalleryOrangeDesktop': "url('./images/desktop/image-gallery-orange.jpg')",
         'imageGalleryConeDesktop': "url('./images/desktop/image-gallery-cone.jpg')",
-        'imageGallerySugarCubesDesktop': "url('./images/desktop/image-gallery-sugar-cubes.jpg')",
+        'imageGallerySugarCubesDesktop': "url('./images/desktop/image-gallery-sugarcubes.jpg')",
       },
       colors: {
         /* Primary */
