@@ -1197,8 +1197,8 @@ nav::before {
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
 
-  .lg\:bg-imageGalleryCone {
-    background-image: url('./images/mobile/image-gallery-cone.jpg');
+  .lg\:bg-imageGalleryConeDesktop {
+    background-image: url('./images/desktop/image-gallery-cone.jpg');
   }
 
   .lg\:bg-imageGalleryMilkbottlesDesktop {
@@ -1231,14 +1231,6 @@ nav::before {
 
   .lg\:bg-imageTransformDesktop {
     background-image: url('./images/desktop/image-transform.jpg');
-  }
-
-  .lg\:bg-imageGalleryConeDesktop {
-    background-image: url('./images/desktop/image-gallery-cone.jpg');
-  }
-
-  .lg\:bg-center {
-    background-position: center;
   }
 
   .lg\:bg-top {
@@ -1315,14 +1307,6 @@ nav::before {
 }
 
 @media (min-width: 1280px) {
-  .xl\:h-\[70vh\] {
-    height: 70vh;
-  }
-
-  .xl\:h-\[60vh\] {
-    height: 60vh;
-  }
-
   .xl\:h-\[55vh\] {
     height: 55vh;
   }
@@ -1331,20 +1315,16 @@ nav::before {
     height: 65vh;
   }
 
+  .xl\:h-\[70vh\] {
+    height: 70vh;
+  }
+
   .xl\:w-\[70\%\] {
     width: 70%;
   }
 
-  .xl\:bg-top {
-    background-position: top;
-  }
-
   .xl\:bg-center {
     background-position: center;
-  }
-
-  .xl\:p-10 {
-    padding: 2.5rem;
   }
 
   .xl\:p-12 {
@@ -1361,20 +1341,12 @@ nav::before {
     line-height: 2.25rem;
   }
 
-  .xl\:text-\[3\.5rem\] {
-    font-size: 3.5rem;
-  }
-
-  .xl\:text-\[3rem\] {
-    font-size: 3rem;
-  }
-
   .xl\:text-\[2\.5rem\] {
     font-size: 2.5rem;
   }
 
-  .xl\:leading-10 {
-    line-height: 2.5rem;
+  .xl\:text-\[3\.5rem\] {
+    font-size: 3.5rem;
   }
 
   .xl\:leading-\[4rem\] {
