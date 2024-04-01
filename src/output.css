@@ -973,6 +973,11 @@ video {
   color: rgb(90 99 108 / var(--tw-text-opacity));
 }
 
+.text-\[\#458c7e\] {
+  --tw-text-opacity: 1;
+  color: rgb(69 140 126 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1014,9 +1019,18 @@ nav::before {
   }
 }
 
+article a:hover::after {
+  opacity: 1;
+}
+
 .after\:absolute::after {
   content: var(--tw-content);
   position: absolute;
+}
+
+.after\:bottom-\[-\.3rem\]::after {
+  content: var(--tw-content);
+  bottom: -.3rem;
 }
 
 .after\:bottom-\[-\.5rem\]::after {
@@ -1029,14 +1043,29 @@ nav::before {
   left: 0px;
 }
 
+.after\:bottom-\[-\.4rem\]::after {
+  content: var(--tw-content);
+  bottom: -.4rem;
+}
+
 .after\:z-0::after {
   content: var(--tw-content);
   z-index: 0;
 }
 
+.after\:z-\[-1\]::after {
+  content: var(--tw-content);
+  z-index: -1;
+}
+
 .after\:inline-block::after {
   content: var(--tw-content);
   display: inline-block;
+}
+
+.after\:flex::after {
+  content: var(--tw-content);
+  display: flex;
 }
 
 .after\:h-4::after {
@@ -1049,6 +1078,11 @@ nav::before {
   width: 100%;
 }
 
+.after\:rounded-xl::after {
+  content: var(--tw-content);
+  border-radius: 0.75rem;
+}
+
 .after\:bg-\[\#fad400\]::after {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
@@ -1059,6 +1093,16 @@ nav::before {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(254 120 103 / var(--tw-bg-opacity));
+}
+
+.after\:opacity-20::after {
+  content: var(--tw-content);
+  opacity: 0.2;
+}
+
+.after\:opacity-40::after {
+  content: var(--tw-content);
+  opacity: 0.4;
 }
 
 .after\:content-\[\'\'\]::after {
@@ -1271,6 +1315,11 @@ nav::before {
     line-height: 2rem;
   }
 
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   .lg\:text-\[2rem\] {
     font-size: 2rem;
   }
@@ -1303,6 +1352,16 @@ nav::before {
   .lg\:after\:w-\[120px\]::after {
     content: var(--tw-content);
     width: 120px;
+  }
+
+  .lg\:hover\:bg-\[\#6fcffe\]:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(111 207 254 / var(--tw-bg-opacity));
+  }
+
+  .lg\:hover\:text-white:hover {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 }
 
