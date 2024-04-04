@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:checked ~ nav{
+    @apply scale-y-100 opacity-100
+}
+
+input:checked ~ label::before{
+   @apply opacity-50
+}
+
+nav::before{
+    @apply content-[''] absolute right-0 w-0 h-0 top-[-2rem] border-[2rem] border-t-transparent border-r-white border-l-transparent border-b-white
+    lg:hidden
+}
+article a:hover::after{
+    @apply  opacity-100
+}

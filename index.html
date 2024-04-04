@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="./output.css">
+
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <header class="w-full h-[30rem] bg-imageHeader bg-cover bg-no-repeat bg-bottom px-5 py-5
+  lg:bg-imageHeaderDesktop
+  lg:h-[100vh]
+  ">
+
+    <section class="w-full h-10 flex justify-between items-center">
+      <img class="h-8" src="./images/logo.svg" alt="logo">
+
+      <input type="checkbox" id="menu-bar" class="hidden">
+      <label for="menu-bar"class="fa-solid fa-bars text-3xl text-white opacity-1 visible lg:hidden lg:opacity-0"></label>
+
+      <nav class="absolute top-24 right-5 bg-white w-4/5 h-64 font-Barlow origin-top scale-y-0 opacity-0 
+      lg:opacity-100 
+      lg:scale-y-100
+      lg:bg-transparent
+      lg:top-4
+      lg:h-9
+      ">
+        <ul class="w-full h-full text-Grayish-blue font-semibold text-xl text-center p-6 flex flex-col space-y-5
+        lg:flex-row
+        lg:space-y-0
+        lg:justify-end
+        lg:space-x-10
+        lg:text-white
+        lg:items-center
+        ">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a class="inline-block w-36 p-3 text-Very-dark-desaturated-blue font-bold  bg-[#fad400] rounded-3xl mt-2 uppercase
+          lg:mt-0  
+          lg:bg-white
+          lg:hover:bg-[#6fcffe]
+          lg:hover:text-white
+          " href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+
+    </section>
+
+    <section class="w-full flex flex-col justify-center items-center mt-16">
+      <h1 class="text-[2.5rem] text-center uppercase text-white font-bold font-Fraunces leading-none tracking-wider
+      lg:text-[3.5rem]
+      lg:tracking-widest
+      ">We are creatives</h1>
+      <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down" class=" mt-7 lg:mt-[11.75rem]">
+    </section>
+
+  </header>
+
+  <main class="w-full ">
+
+    <article class="lg:w-full lg:flex lg:flex-row-reverse lg:h-[50vh] xl:h-[65vh]">
+      <div class="w-full h-[20rem] bg-imageTransform bg-cover bg-no-repeat bg-center
+      lg:bg-imageTransformDesktop
+      lg:h-full
+      lg:w-[50%]
+      ">
+      </div>
+
+      <div class="bg-white w-full flex flex-col items-center p-4 mt-16 mb-16 text-center 
+      lg:text-start 
+      lg:mt-0 
+      lg:p-8
+      lg:mb-8 
+      lg:w-[50%] 
+      xl:p-12">
+
+        <h2  class="text-Very-dark-desaturated-blue text-[2.5rem] font-bold font-Fraunces lg:text-[3rem] xl:text-[3.5rem]">Transform your brand</h2>
+
+        <p class="text-Dark-grayish-blue font-semibold text-lg font-Barlow mt-5 leading-8 lg:mt-2 xl:text-2xl xl:w-[70%] xl:leading-[4rem]">    
+          We are a full-service creative agency specializing in helping brands grow fast.
+          Engage your clients through compelling visuals that do most of the marketing for you.
+        </p>
+
+        <a href="#" class="mt-5 text-Very-dark-desaturated-blue font-bold relative z-10 uppercase text-base font-Fraunces
+        after:content-['']
+        after:flex
+        after:w-full
+        after:h-4
+        after:bg-[#fad400]
+        after:opacity-40
+        after:absolute
+        after:bottom-[-.4rem]
+        after:rounded-xl
+        after:left-0
+        after:z-[-1]
+        lg:after:w-[120px]
+        lg:w-full
+        xl:w-[70%]
+        "> Learn more</a>
+      </div>
+
+    </article>
+
+    <article class="lg:w-full lg:flex lg:h-[50vh] xl:h-[65vh]">
+
+      <div class="w-[full] h-[20rem] bg-imageStand bg-cover bg-no-repeat bg-center 
+      lg:bg-imageStandDesktop
+      lg:h-full 
+      lg:w-[50%]
+      lg:bg-top
+      xl:bg-center
+      ">
+      </div>
+
+      <div class="bg-white w-full flex flex-col items-center p-4 mt-16 mb-16 text-center lg:text-start 
+      lg:mt-0 
+      lg:p-8 
+      lg:mb-8 
+      lg:w-[50%]
+      xl:p-12
+      ">
+
+        <h2 class="text-Very-dark-desaturated-blue text-[2.5rem] font-bold font-Fraunces lg:text-[2rem] xl:text-[2.5rem]">Stand out to the right audience</h2>
+
+        <p class="text-Dark-grayish-blue font-semibold text-xl font-Barlow mt-5 leading-8 lg:mt-2  xl:text-2xl xl:w-[70%] xl:leading-[4rem]">    
+          Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build
+          and extend your brand in digital places.
+        </p>
+
+          <a href="#" class="mt-5 text-Very-dark-desaturated-blue font-bold relative z-10 uppercase text-base font-Fraunces
+          after:content-['']
+          after:flex
+          after:w-full
+          after:h-4
+          after:bg-[#fe7867]
+          after:absolute
+          after:bottom-[-.4rem]
+          after:opacity-40
+          after:rounded-xl
+          after:left-0
+          after:z-[-1]
+          lg:after:w-[120px]
+          lg:w-full
+          xl:w-[70%]
+          "> Learn more </a>
+
+      </div>
+
+    </article>
+
+    <article class="lg:w-full lg:flex lg:h-[50vh] xl:h-[70vh]">
+      
+      <div class="w-full h-[33rem] bg-imageGraphicDesign bg-cover bg-no-repeat bg-center flex flex-col justify-end items-cente pb-16 text-center text-Dark-desaturated-cyan p-3
+      lg:bg-imageGraphicDesignDesktop
+      lg:h-full
+      lg:bg-top
+      lg:pb-[1rem]
+      ">
+        <h2 class="text-2xl font-Fraunces font-bold xl:text-3xl">Graphic Design</h2>
+        <p class="text-sm font-Fraunces font-semibold mt-5 leading-7 
+        lg:m-0 lg:pt-0 lg:px-12 lg:pb-4
+        xl:text-2xl">
+          Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential
+          clients’ attention.
+        </p>
+      </div>
+
+      <div class="w-full h-[33rem] bg-imagePhotography bg-cover bg-no-repeat bg-center flex flex-col justify-end items-cente pb-16 text-center text-Dark-blue p-3
+      lg:bg-imagePhotographyDesktop
+      lg:h-full
+      lg:bg-top
+      lg:pb-[1rem]
+      ">
+        <h2 class="text-2xl font-Fraunces font-bold xl:text-3xl" >
+          Photography</h2>
+        <p class="text-sm font-Fraunces font-semibold mt-5 leading-7 
+        lg:m-0 lg:pt-0 lg:px-12 lg:pb-10
+        xl:text-2xl">
+          Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+        </p>
+      </div>
+
+    </article>
+
+
+    <section class=" w-full p-3 flex flex-col items-center lg:flex-row lg:relative lg:justify-evenly lg:items-center lg:h-[80vh]">
+
+      <h3 class="my-10 uppercase text-Grayish-blue font-bold font-Fraunces tracking-[.3rem] text-xl lg:absolute lg:top-0 lg:text-2xl"> Client testimonials</h3>
+
+      <article class="w-80 flex flex-col items-center mb-11">
+
+        <img src="./images/image-emily.jpg" alt="Emily" class="rounded-full">
+
+        <p class="text-Very-dark-grayish-blue text-center text-lg my-7 font-Barlow font-semibold">
+          We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+        </p>
+        <h4 class="text-Very-dark-desaturated-blue font-bold text-lg font-Fraunces">Emily R.</h4>
+
+        <span class="text-Grayish-blue text-sm mt-3 font-Barlow font-semibold">Marketing Director</span>
+
+      </article>
+
+      <article class="w-80 flex flex-col items-center mb-11">
+
+        <img src="./images/image-thomas.jpg" alt="Thomas" class="rounded-full">
+
+        <p class="text-Very-dark-grayish-blue text-center text-lg my-7 font-Barlow font-semibold">
+          Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable
+          experience.
+        </p>
+        <h4 class="text-Very-dark-desaturated-blue font-bold text-lg font-Fraunces">Thomas S.</h4>
+
+        <span class="text-Grayish-blue text-sm mt-3 font-Barlow font-semibold">
+          Chief Operating Officer</span>
+
+      </article>
+
+      <article class="w-80 flex flex-col items-center mb-11">
+
+        <img src="./images/image-jennie.jpg" alt="Jennie" class="rounded-full">
+
+        <p class="text-Very-dark-grayish-blue text-center text-lg my-7 font-Barlow font-semibold">
+          Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+        </p>
+
+        <h4 class="text-Very-dark-desaturated-blue font-bold text-lg font-Fraunces">Jennie F.</h4>
+        <span class="text-Grayish-blue text-sm mt-3 font-Barlow font-semibold">Business Owner</span>
+
+      </article>
+
+    </section>
+
+    <section class="grid grid-rows-2 grid-cols-2 mt-4 lg:grid-rows-1 lg:grid-cols-4 lg:h-[40vh] xl:h-[55vh]">
+      <div class="w-full h-48 bg-imageGalleryMilkbottles bg-cover
+      lg:bg-imageGalleryMilkbottlesDesktop lg:h-full 
+      ">
+      </div>
+
+      <div class="w-full h-48 bg-imageGalleryOrange bg-left bg-cover
+      lg:bg-imageGalleryOrangeDesktop lg:h-full 
+      ">
+      </div>
+
+      <div class="w-full h-48 bg-imageGalleryCone bg-bottom bg-cover
+      lg:bg-imageGalleryConeDesktop lg:h-full 
+      ">
+      </div>
+
+      <div class="w-full h-48 bg-imageGallerySugarCubes bg-bottom bg-cover
+      lg:bg-imageGallerySugarCubesDesktop lg:h-full 
+      ">
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="Contact" class="w-full h-80 bg-[#8fd3c4] flex flex-col items-center p-5">
+    
+    <p class="text-Dark-moderate-cyan font-Barlow font-black text-3xl my-5">sunnyside</p>
+
+      <ul class="w-full flex justify-between text-Dark-moderate-cyan font-Barlow font-semibold text-xl mt-5 px-3 lg:w-[50%]">
+        <li class="lg:hover:text-white"><a href="#">About</a></li>
+        <li class="lg:hover:text-white"><a href="#">Services</a></li>
+        <li class="lg:hover:text-white"><a href="#">Projects</a></li>
+      </ul>
+
+      <div class="w-full flex mt-20 justify-evenly lg:w-[50%]">
+       
+        <a href="#">
+          <i class="fa-brands fa-square-facebook text-2xl text-[#458c7e] lg:text-3xl lg:hover:text-white"></i>
+       </a> 
+
+       <a href="#"> 
+        <i class="fa-brands fa-instagram text-2xl text-[#458c7e] lg:text-3xl lg:hover:text-white"></i>
+      </a>
+
+       <a href="#">
+        <i class="fa-brands fa-twitter text-2xl text-[#458c7e] lg:text-3xl lg:hover:text-white"></i>
+      </a>
+      
+       <a href="#">
+        <i class="fa-brands fa-pinterest text-2xl lg:text-3xl text-[#458c7e] lg:hover:text-white"></i>
+      </a>
+
+        
+      </div>
+
+  </footer>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/Diego2Drm/sunnyside-agency-landing-page">Diego Ramírez</a>.
+  </div>
+</body>
+
+</html>
